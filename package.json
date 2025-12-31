@@ -1,0 +1,19 @@
+{
+  "name": "null-validator",
+  "version": "1.0.0",
+  "description": "null validator for the variable",
+  "keywords": [
+    "null-validator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/rsresta07/null-validator.git"
+  },
+  "license": "MIT",
+  "author": "Rameshwor Shrestha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
