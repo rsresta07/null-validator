@@ -1,19 +1,28 @@
 {
   "name": "null-validator",
   "version": "1.0.0",
-  "description": "null validator for the variable",
+  "description": "null validator in ts for variable",
   "keywords": [
     "null-validator"
   ],
+  "homepage": "https://github.com/rsresta07/null-validator#readme",
+  "bugs": {
+    "url": "https://github.com/rsresta07/null-validator/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git remote add origin https://github.com/rsresta07/null-validator.git"
+    "url": "git+https://github.com/rsresta07/null-validator.git"
   },
-  "license": "MIT",
+  "license": "ISC",
   "author": "Rameshwor Shrestha",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "validate",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
